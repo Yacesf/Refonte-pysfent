@@ -21,7 +21,7 @@ function Header() {
     <header className="px-[3%] fixed top-0 left-0 w-full">
       <nav className="relative z-50">
         <motion.ul
-          className={`rounded-full flex items-center justify-around mt-[20px] py-3 px-4 transition-all duration-300 ${
+          className={`rounded-full flex items-center justify-around mt-[20px] lg:py-4 py-3 px-4 transition-all duration-300 mx-auto lg:max-w-[550px] max-w-[500px] ${
             isScrolled
               ? "bg-white/40 backdrop-blur-sm shadow-sm"
               : "bg-transparent"
@@ -32,7 +32,7 @@ function Header() {
               <a
                 href={link.href}
                 onClick={() => setActiveIndex(index)}
-                className="relative p-2 text-sm font-semibold text-gray-800"
+                className="relative p-2 text-sm lg:text-lg font-semibold text-gray-800"
               >
                 {activeIndex === index && (
                   <motion.div
