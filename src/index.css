@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#d6eaf8];
+  @apply bg-bleuCiel;
   @apply font-lato
 }

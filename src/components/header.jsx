@@ -32,7 +32,7 @@ function Header() {
               <a
                 href={link.href}
                 onClick={() => setActiveIndex(index)}
-                className="relative p-2 text-sm lg:text-lg font-semibold text-gray-800"
+                className="relative p-2 text-sm lg:text-lg tracking-wide"
               >
                 {activeIndex === index && (
                   <motion.div

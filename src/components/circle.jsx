@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-function Circle({ size, border, opacity, bgColor }) {
+function Circle({ size, border, opacity, bgColor, position }) {
   const circleVariants = {
     animate: {
       y: [0, -10, 10, 0],
@@ -17,7 +17,7 @@ function Circle({ size, border, opacity, bgColor }) {
     <motion.div
       variants={circleVariants}
       animate="animate"
-      className={`rounded-full ${size} ${border} ${bgColor} ${opacity}`}
+      className={`absolute rounded-full ${position} ${size} ${border} ${bgColor} ${opacity}`}
     ></motion.div>
   );
 }
