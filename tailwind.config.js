@@ -17,7 +17,7 @@ export default {
       },
       fontFamily: {
         lato: ["Lato"],
-        titlefont: ["Oxygen"],
+        titlefont: ["Playball"],
       },
       screens: {
         xs: "480px",
