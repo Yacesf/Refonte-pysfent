@@ -17,7 +17,7 @@ export default {
       },
       fontFamily: {
         lato: ["Lato"],
-        titlefont: ["Playball"],
+        titlefont: ["Poppins"],
       },
       screens: {
         xs: "480px",
