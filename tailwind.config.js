@@ -3,17 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      animation: {
-        gradientMove: "gradientMove 10s ease-in-out infinite",
-      },
-      keyframes: {
-        gradientMove: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(-50%)" },
-        },
-      },
       colors: {
-        bleuCiel: "#d6eaf8",
+        primBg: "#E8D9F1",
+        colorFont: "#2E2E38",
       },
       fontFamily: {
         lato: ["Lato"],

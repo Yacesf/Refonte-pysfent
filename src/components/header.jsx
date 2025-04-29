@@ -21,7 +21,7 @@ function Header() {
     <header className="px-[3%] fixed top-0 left-0 w-full z-50">
       <nav className="relative ">
         <motion.ul
-          className={`rounded-full flex items-center justify-around mt-[20px] lg:py-4 py-3 px-4 transition-all duration-300 mx-auto lg:max-w-[550px] max-w-[500px] ${
+          className={`text-colorFont rounded-full flex items-center justify-around mt-[20px] lg:py-4 py-3 px-4 transition-all duration-300 mx-auto lg:max-w-[550px] max-w-[500px] ${
             isScrolled
               ? "bg-white/40 backdrop-blur-lg shadow-sm"
               : "bg-transparent"
